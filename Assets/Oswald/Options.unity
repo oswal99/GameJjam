@@ -539,8 +539,9 @@ GameObject:
   m_Component:
   - component: {fileID: 362433745}
   - component: {fileID: 362433744}
+  - component: {fileID: 362433746}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Manager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -573,6 +574,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &362433746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 362433743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76938dd4923859c48910fe0a2b5df8df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Slider: {fileID: 19578856}
+  Button: {fileID: 331370963}
+  Ispaused: 0
 --- !u!1 &617722589
 GameObject:
   m_ObjectHideFlags: 0
