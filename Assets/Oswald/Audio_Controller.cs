@@ -16,6 +16,7 @@ public class Audio_Controller : MonoBehaviour
         else
         {
             PlayerPrefs.SetFloat("soundVolume", 1);
+            LoadVolume();
         }
     }
 
