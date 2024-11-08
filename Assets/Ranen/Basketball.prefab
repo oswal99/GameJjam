@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8003031983540100235}
   - component: {fileID: 3941898963261175630}
   - component: {fileID: -350975302504939153}
-  - component: {fileID: 5108819240379687162}
+  - component: {fileID: 6487206821027197698}
   m_Layer: 0
   m_Name: Basketball
   m_TagString: Item
@@ -149,7 +149,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
---- !u!114 &5108819240379687162
+--- !u!114 &6487206821027197698
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

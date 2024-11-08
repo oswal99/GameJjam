@@ -11,10 +11,11 @@ GameObject:
   - component: {fileID: 3112593143764164206}
   - component: {fileID: 8485030589283672059}
   - component: {fileID: -4837203117036413513}
+  - component: {fileID: -8944249601885446324}
   - component: {fileID: 1506924111735704945}
   m_Layer: 0
   m_Name: Football
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -113,6 +114,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
+--- !u!114 &-8944249601885446324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5716285138153683917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a956913e9fe39646805b5d1c90ae2ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!70 &1506924111735704945
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
