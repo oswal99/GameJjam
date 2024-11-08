@@ -20,18 +20,17 @@ public class BoxControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
-        {
-            WieghtedChoice();
-        }
-
+        //if(Input.GetMouseButton(0))
+        //{
+           // WieghtedChoice();
+        //}
 
     }
 
 
     public void WieghtedChoice()
     {   
-        int randomNumber = Random.Range(0, items.Length);
+        int randomNumber = Random.Range(0, shopItems.Length);
         Instantiate(shopItems[randomNumber], spawnPoint.transform.position, Quaternion.identity);
 
     }
