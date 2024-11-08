@@ -12,4 +12,6 @@ public class ShelfStick : MonoBehaviour
             collision.gameObject.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;  
         }
     }
+
+    
 }
