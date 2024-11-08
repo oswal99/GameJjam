@@ -7,15 +7,15 @@ public class Pause_Control : MonoBehaviour
 {
 
 
-    public GameObject Slider;
-    public GameObject Button;
+    public GameObject PauseControl;
+    
     public bool Ispaused;
 
     // Start is called before the first frame update
     void Start()
     {
-        Slider.SetActive(false);
-        Button.SetActive(false);
+        
+        PauseControl.SetActive(false);
 
     }
 
@@ -38,16 +38,13 @@ public class Pause_Control : MonoBehaviour
     }
     public void PauseGame()
     {
-        Slider.SetActive(true);
-        Button.SetActive(true);
-
+        PauseControl.SetActive(true);
         Time.timeScale = 0f;
         Ispaused = true;
     }
     public void ResumeGame()
     {
-        Slider.SetActive(false);
-        Button.SetActive(false);
+        PauseControl.SetActive(false); ;
 
         Time.timeScale = 1f;
         Ispaused = false;
