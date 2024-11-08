@@ -29,7 +29,7 @@ public class BoxControl : MonoBehaviour
     }
 
 
-    void WieghtedChoice()
+    public void WieghtedChoice()
     {   
         int randomNumber = Random.Range(0, items.Length);
         Instantiate(shopItems[randomNumber], spawnPoint.transform.position, Quaternion.identity);
